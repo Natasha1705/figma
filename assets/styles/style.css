@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: readexPro-c;
+    src: url();
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 130px;
+    margin: 0 auto;
+    background-color: rgb(156, 197, 197);
+    color: #fff;
+}
+
+body {
+    max-width: 1440px;
+}
+
+.nav_link{
+    font-size: 18px;
+    font-weight: 400;
+    color: FFFFFF;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.button_text{
+    background-color: #2B6F3E;
+    border: none;
+    border-radius: 8px;
+    width: 90px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.containerPic{
+    position : relative; 
+    width : 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/image/jumbotron-img1.jpg);
+    text-align: center;
+    color: #fff;
+}
+.containerText{
+    position : absolute;
+    text-align: center;
+    justify-content: center;
+    top: 350px;
+    font-family: var(--font-family);
+    text-align: center;
+    color: #fff;
+    padding: 35px 130px;
+}
+
+.containerImg{
+    width:160px; 
+    height:32px;
+}
+
+span{
+font-weight: 400;
+font-size: 48px;
+text-align: center;
+color: #fff;
+float: right;
+}
+
+h1{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 48px;
+text-align: center;
+color: #fff;
+}
+
+p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #959595;
+}
+
+.info{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 130px;
+
+}
+.infjImg{
+    width: 412px;
+    height: 360px;
+
+}
+.infoText{
+    font-family: readexPro-c;
+    text-align: center;
+}
+
+.button_info{
+border-radius: 8px;
+padding: 10px 18px;
+width: 125px;
+height: 38px;
+background: #2b6f3e;
+border: none;
+color: #f8f8f8;
+}
+
+h2{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 32px;
+color: #202020;
+}
+
+.container2{
+    text-align: center;
+    padding: 35px 130px;
+}
+
+.container3{
+    text-align: center;
+    padding: 35px 130px;
+}
+
+.container4{
+    text-align: center;
+    padding: 35px 130px;
+    background-color: #2B6F3E;
+    border-radius: 16px;
+}
+
+h3{
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 32px;
+text-align: center;
+color: #fff;
+}
+
+.container4_p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #fff;
+padding: 35px 130px;
+}
+
+.button_p{
+border-radius: 8px;
+padding: 10px 18px;
+width: 146px;
+height: 38px;
+background: #fff;
+color: #2b6f3e;
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 14px;
+border: none;
+}
+
+footer{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #fff;
+background: #2b6f3e;
+padding: 35px 130px;
+}
